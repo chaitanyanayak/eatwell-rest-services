@@ -12,6 +12,7 @@ import java.util.List;
  * Creates a Rest Controller for serving the recipe resources
  */
 @RestController
+@RequestMapping("api")
 public class RecipeController {
 
 	@Autowired
